@@ -229,8 +229,8 @@ def start():
 
   # train, val = train_test_split(df, train_size=0.8)
 
-  # X1 = df[["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked"]]
-  X1 = df[["Sex", "Age"]]
+  X1 = df[["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked"]]
+  # X1 = df[["Sex", "Age"]]
 
   # print(f"{len(X1.columns) = }")
   # return
